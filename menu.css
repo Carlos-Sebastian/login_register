@@ -75,7 +75,7 @@ body {
     text-align: center;
     position: absolute;
     top: 5%;
-    left: 47%;
+    left: 46.8%;
     font-size: 260%;
     font-family: Arial, Helvetica, sans-serif;
     color: #fefeff;
@@ -93,43 +93,43 @@ body {
       
   }
   .botonm {
-      left: 52%;
-      top: 60%;
+      left: 65%;
+      top: 78.5%;
       position: absolute;
       display: inline-block;
-      padding: 10px 20px;
+      padding: 30px 40px;
       font-size: 16px;
       text-align: center;
       text-decoration: none;
       background-color: #222e46;
       color: #fff;
       border: none;
-      border-radius: 4px;
+      border-radius: 30px;
       cursor: pointer;
   }
 
   .botonm:hover {
-    left: 52%;
-    top: 60%;
+    left: 65%;
+      top: 78.5%;
     position: absolute;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 30px 40px;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
     background-color: #a65638;
     color: #ffffff;
     border: none;
-    border-radius: 4px;
+    border-radius: 30px;
     cursor: pointer;
 }
 
   
   .Sa {
     position: absolute;
-    left: 53.5%;
-    top: 30%;
-    font-size: 400%;
+    left: 38%;
+    top: 75%;
+    font-size: 800%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color: white;
@@ -137,11 +137,85 @@ body {
   }
   .caca {
     position: absolute;
-    left: 53.5%;
-    top: 30%;
+    left: 46.5%;
+    top: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    
 
   }
 
   .contador {
+    position: absolute;
+    left: 47.9%;
+    top: 15%;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+  .jup {
+      position: absolute;
+      width: 800px;
+      left: 33.5%;
+      top: 70%;
+      height: 250px;
+      background-color: #e4b55e;
+      border-radius:  10px 10px 10px 10px;
+  }
+
+  .koala {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
     
+    list-style-type: decimal;
+  }.koala li {
+    margin-top: 15%;
+    font-size: 130%;
+    color: #ffffff;
+  }
+
+  .koala2 {
+    position: absolute;
+    top: 20.1%;
+    left: 40%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+    list-style-type: none;
+  }.koala2 li {
+    margin-top: 24%;
+    font-size: 130%;
+    color: #ffffff;
+  }
+  .koala3 {
+    position: absolute;
+    top: 20.1%;
+    left: 80%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+    list-style-type: none;
+  }.koala3 li {
+    margin-top: 57%;
+    font-size: 150%;
+    color: #ffffff;
+  }
+
+  .Listxx {
+    
+    position: absolute;
+    top: 71%;
+    left: 49%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fefeff;
+    font-weight: bold;
   }

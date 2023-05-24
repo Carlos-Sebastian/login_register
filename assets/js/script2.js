@@ -1,4 +1,5 @@
-var participantes = 0;
+var participantes = 5;
+var limiteParticipantes = 6;
 
     function actualizarContador() {
       var contadorElemento = document.getElementById("contador");
@@ -6,14 +7,19 @@ var participantes = 0;
     }
 
     function agregarPersona() {
-      var nombre = "Tu Nombre"; // Cambia "Tu Nombre" por tu propio nombre o texto deseado
+        if (participantes < limiteParticipantes){
+      var nombre = "Usuario ya esta registrado"; // Cambia "Tu Nombre" por tu propio nombre o texto deseado
       var listaEspera = document.getElementById("lista-espera");
       var nuevaPersona = document.createElement("li");
       nuevaPersona.innerText = nombre;
       listaEspera.appendChild(nuevaPersona);
-
+    
       participantes++;
       actualizarContador();
+    }
+    else {
+        alert("Solo puedes ingresar una vez");
+      }
     }
 
     function eliminarPersona(elemento) {
